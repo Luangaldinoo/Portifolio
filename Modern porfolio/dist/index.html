@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="pt-br" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <title>Portfólio luan galdino</title>
+  <link rel="stylesheet" href="./style.css">
+<link rel="shortcut icon" href="img/Logo2.png" type="image/x-icon">
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class="bg-[#0f0f0f] text-white">
+    <div class="bg-[#0f0f0f] text-white">
+        <!-- Unique Navigation -->
+        <nav class="fixed w-full top-0 z-50 px-4 py-6">
+            <div class="max-w-7xl mx-auto">
+                <div class="relative bg-black/30 backdrop-blur-xl rounded-2xl border border-white/5 p-4">
+                    <div class="flex items-center justify-between">
+                        <!-- Animated Logo -->
+                        <div class="relative">
+                            <span class="text-2xl font-bold text-gradient">Bem vindo ao meu portfólio</span>
+                            <div class="absolute -top-1 -right-1 w-2 h-2 bg-[#ff6b6b] rounded-full animate-ping"></div>
+                        </div>
+                        
+                        <!-- Mobile Menu Button -->
+                        <button class="md:hidden text-white focus:outline-none" onclick="toggleMenu()">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                            </svg>
+                        </button>
+
+                        <!-- Menu Items -->
+                      <div class="hidden md:flex items-center space-x-8">
+  <a href="#home" class="group text-sm uppercase tracking-wider">
+    Home
+    <span class="block h-0.5 w-0 group-hover:w-full transition-all duration-500 bg-[#ff6b6b]"></span>
+  </a>
+
+  <a href="#work" class="group text-sm uppercase tracking-wider">
+    Projetos
+    <span class="block h-0.5 w-0 group-hover:w-full transition-all duration-500 bg-[#ff6b6b]"></span>
+  </a>
+
+  <a href="#about" class="group text-sm uppercase tracking-wider">
+    Sobre
+    <span class="block h-0.5 w-0 group-hover:w-full transition-all duration-500 bg-[#ff6b6b]"></span>
+  </a>
+
+  <a href="#contact" class="group text-sm uppercase tracking-wider">
+    Contatos
+    <span class="block h-0.5 w-0 group-hover:w-full transition-all duration-500 bg-[#ff6b6b]"></span>
+  </a>
+
+  <button class="relative px-6 py-2 overflow-hidden group bg-gradient-to-r from-[#ff6b6b] to-[#ffd93d] rounded-lg">
+    <span class="relative text-black font-medium">Faça seu orçamento</span>
+  </button>
+</div>
+
+                        
+                    </div>
+
+
+                    <!-- Mobile Menu -->
+                    <div id="mobileMenu" class="mobile-menu fixed top-0 right-0 w-[80%] h-screen bg-black/95 backdrop-blur-xl p-8 md:hidden">
+                        <div class="flex justify-end">
+                            <button onclick="toggleMenu()" class="text-white">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+                                </svg>
+                            </button>
+                        </div>
+                        <div class="flex flex-col space-y-8 mt-8">
+                            <a href="#home" class="text-2xl font-bold" onclick="toggleMenu()">Home</a>
+                            <a href="#work" class="text-2xl font-bold" onclick="toggleMenu()">Work</a>
+                            <a href="#about" class="text-2xl font-bold" onclick="toggleMenu()">About</a>
+                            <a href="#contact" class="text-2xl font-bold" onclick="toggleMenu()">Contact</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Innovative Hero Section -->
+        <section id="home" class="min-h-screen pt-32 pb-20 relative overflow-hidden">
+            <div class="max-w-7xl mx-auto px-4">
+                <div class="grid md:grid-cols-2 gap-12 items-center">
+                    <div class="space-y-8">
+                        <div class="inline-flex items-center space-x-2 bg-white/5 rounded-full px-4 py-2">
+                            <span class="w-2 h-2 bg-[#ff6b6b] rounded-full"></span>
+                            <span class="text-sm">Disponível para o trabalho</span>
+                        </div>
+                        <h1 class="text-5xl md:text-7xl font-bold leading-tight">
+                            Olá, Sou o 
+                            <span class="text-gradient">Luan Galdino</span>
+                        </h1>
+                        <p class="text-lg text-zinc-400 max-w-md">
+                            Sou Luan, estudante de Sistemas de Informação e um desenvolvedor apaixonado por transformar ideias em soluções tecnológicas 
+                            impactantes. Foco na criação de sistemas eficientes e escaláveis.
+                             Estou sempre em busca de novos desafios e oportunidades para inovar, aprofundando meus conhecimentos em desenvolvimento de baixo 
+                             nível e explorando o potencial da tecnologia para construir o futuro.
+                        </p>
+                        
+                    </div>
+                        <!-- Floating Elements -->
+                        <div class="absolute top-10 right-10 w-20 h-20 bg-[#ff6b6b]/20 rounded-full blur-2xl"></div>
+                        <div class="absolute bottom-10 left-10 w-32 h-32 bg-[#ffd93d]/20 rounded-full blur-2xl"></div>
+                        <section class="hero-section">
+  <div class="hero-content">
+    <div class="hero-image">
+    <div class="foto-moldura">
+  <img src="img/WhatsApp Image 2025-07-01 at 13.37.12.jpeg" alt="Foto de Luan Galdino" class="foto-perfil" />
+</div>
+
+
+    </div>
+  </div>
+</section>
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- Marquee Banner -->
+            <div class="relative mt-20 py-8 bg-white/5 overflow-hidden">
+                <div class="marquee whitespace-nowrap">
+                    <span class="mx-4 text-4xl font-bold">Javascript</span>
+                    <span class="mx-4 text-4xl font-bold text-gradient">C</span>
+                    <span class="mx-4 text-4xl font-bold">HTML</span>
+                    <span class="mx-4 text-4xl font-bold text-gradient">CSS</span>
+                    <span class="mx-4 text-4xl font-bold">MY SQL</span>
+                </div>
+            </div>
+        </section>
+
+<section id="about" class="about-section">
+  <div class="container">
+    <div class="about-box">
+      <h2 class="section-title">
+        Sobre 
+      <p class="about-description">
+        Olá! Me chamo <strong>Luan Galdino </strong>  e sou um desenvolvedor com uma profunda paixão pela tecnologia, pela criatividade e pela construção de experiências digitais memoráveis. Acredito no poder da tecnologia para transformar ideias em realidade, e é com entusiasmo que me dedico a dar vida a projetos inovadores e funcionais.
+Minhas principais áreas de atuação envolve o <strong>desenvolvimento front-end e Banco de dados </strong>, onde utilizo minhas habilidades em HTML, CSS, JavaScript e Sql, para criar interfaces de usuário atraentes, responsivas e de alta performance. Busco constantemente aprimorar meus conhecimentos e explorar novas tecnologias e tendências do mercado para garantir que cada projeto entregue a melhor experiência possível aos usuários.
+Meu objetivo é ir além da simples criação de websites; busco desenvolver soluções digitais que realmente causem impacto, combinando um design cuidadoso com um código de qualidade e bem estruturado. Sou um profissional dedicado, sempre em busca de novos desafios e oportunidades para aprender, crescer e contribuir para projetos que façam a diferença.
+Se você procura um desenvolvedor web comprometido, criativo e com paixão por entregar resultados de excelência, ficarei muito feliz em conectar e discutir como posso ajudar a transformar sua visão em realidade digital.
+      </p>
+    </div>
+  </div>
+</section>
+
+
+        <!-- Unique Work Section -->
+        <section id="work" class="py-20 custom-shape bg-zinc-900">
+            <div class="max-w-7xl mx-auto px-4">
+                <div class="mb-16">
+                    <span class="text-[#ff6b6b] text-sm uppercase tracking-wider">Melhores Projetos</span>
+                    <h2 class="text-4xl font-bold mt-2">Projetos:</h2>
+                </div>
+                
+                <!-- Staggered Grid -->
+                <div class="grid md:grid-cols-2 gap-8">
+                    <!-- Project Card 1 -->
+                    <div class="group relative h-[400px] bg-black rounded-2xl overflow-hidden hover-lift">
+                        <img src="img/sptf.jpg" 
+                             alt="Project Alpha" 
+                             class="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-110">
+                        <div class="absolute inset-0 bg-gradient-to-b from-transparent to-black/90 z-10"></div>
+                        <div class="absolute bottom-8 left-8 z-20">
+                            <h3 class="text-2xl font-bold mb-2">Réplica do spotify</h3>
+                            <p class="text-zinc-400 mb-4">Réplica visual da interface do Spotify criada com HTML e CSS. O projeto foca em layout responsivo, menus laterais, playlists e player fixo. Reproduz com fidelidade o design da plataforma original. Ideal para treinar estruturação e estilização de interfaces modernas</p>
+                            <a href="https://github.com/Luangaldinoo/Replica-do-spotify/blob/main/README.md" target="_blank" class="inline-flex items-center space-x-2 text-[#ff6b6b] group-hover:text-white transition-colors duration-300">
+                                <span>Link do repositório</span>
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                                        <!-- Project Card 2 -->
+
+   <div class="group relative h-[400px] bg-black rounded-2xl overflow-hidden hover-lift">
+                        <img src="img/Caixa eletronico.jpg" 
+                             alt="Project Alpha" 
+                             class="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-110">
+                        <div class="absolute inset-0 bg-gradient-to-b from-transparent to-black/90 z-10"></div>
+                        <div class="absolute bottom-8 left-8 z-20">
+                            <h3 class="text-2xl font-bold mb-2">Simulador de Caixa eletrônico em C</h3>
+                            <p class="text-zinc-400 mb-4">simulador de banco em C que oferece saque, depósito, consulta e encerramento de sessão via menu, ideal para aprender lógica de programação com variáveis, decisões e repetições.</p>
+                            <a href="https://github.com/Luangaldinoo/Simulador-de-Caixa-Eletronico"  target="_blank"  class="inline-flex items-center space-x-2 text-[#ff6b6b] group-hover:text-white transition-colors duration-300">
+                                <span>Link do repositório</span>
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Project Card 3  -->
+                   <div class="group relative h-[400px] bg-black rounded-2xl overflow-hidden hover-lift">
+                        <img src="img/Menu interativo.jpg" 
+                             alt="Project Alpha" 
+                             class="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-110">
+                        <div class="absolute inset-0 bg-gradient-to-b from-transparent to-black/90 z-10"></div>
+                        <div class="absolute bottom-8 left-8 z-20">
+                            <h3 class="text-2xl font-bold mb-2">Menu interativo em C</h3>
+                            <p class="text-zinc-400 mb-4">Menu interativo em C que simula um assistente virtual. O usuário pode falar com o assistente (MAX), obter endereço, fazer pedidos ou reservar mesa..</p>
+                            <a href="https://github.com/Luangaldinoo/Menu-interativo-.git"  target="_blank" class="inline-flex items-center space-x-2 text-[#ff6b6b] group-hover:text-white transition-colors duration-300">
+                                <span>Link do repositório</span>
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Project Card 4 -->
+                   <div class="group relative h-[400px] bg-black rounded-2xl overflow-hidden hover-lift">
+                        <img src="img/techfuture.jpg" 
+                             alt="Project Alpha" 
+                             class="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-110">
+                        <div class="absolute inset-0 bg-gradient-to-b from-transparent to-black/90 z-10"></div>
+                        <div class="absolute bottom-8 left-8 z-20">
+                            <h3 class="text-2xl font-bold mb-2">TechSolutions Summit 2025</h3>
+                            <p class="text-zinc-400 mb-4">Este projeto é um convite digital para um evento, em HTML e CSS. Ele contém uma página inicial com detalhes do evento, uma seção para convidados com fotos e descrições, e um formulário de presença para RSVP.Funcionando bem em diversos dispositivos.</p>
+                            <a href="https://github.com/Luangaldinoo/TECHFUTURE-SUMMIT"  target="_blank" class="inline-flex items-center space-x-2 text-[#ff6b6b] group-hover:text-white transition-colors duration-300">
+                                <span>Link do repositório</span>
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+
+    <!-- Project Card 5 -->
+                   <div class="group relative h-[400px] bg-black rounded-2xl overflow-hidden hover-lift">
+                        <img src="img/WhatsApp Image 2025-07-17 at 16.37.02.jpeg" 
+                             alt="Project Alpha" 
+                             class="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-110">
+                        <div class="absolute inset-0 bg-gradient-to-b from-transparent to-black/90 z-10"></div>
+                        <div class="absolute bottom-8 left-8 z-20">
+                            <h3 class="text-2xl font-bold mb-2">Tanta Móveis</h3>
+                            <p class="text-zinc-400 mb-4"> Landing page moderna para uma loja de móveis com design responsivo.</p>
+                            <a href="https://github.com/Luangaldinoo/tanta-moveis"  target="_blank" class="inline-flex items-center space-x-2 text-[#ff6b6b] group-hover:text-white transition-colors duration-300">
+                                <span>Link do repositório</span>
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section with Diagonal Layout -->
+        <section id="about" class="py-32 relative">
+            <div class="diagonal-box bg-[#ff6b6b]/5 py-32">
+                <div class="diagonal-content max-w-7xl mx-auto px-4">
+                    <div class="grid md:grid-cols-2 gap-16 items-center">
+                        <div>
+                            <h2 class="text-4xl font-bold mb-8">Criando idéias inovadoras</h2>
+                            <p class="text-zinc-400 mb-8">
+                            Com uma paixão pelo design inovador e pela tecnologia de ponta, Transformo ideias em experiências digitais cativantes.
+                            </p>
+                            <div class="grid grid-cols-2 gap-8">
+                                <div class="hover-lift">
+                                    <h3 class="text-4xl font-bold text-gradient mb-2">1+</h3>
+                                    <p class="text-sm text-zinc-400">Years Experience</p>
+                                </div>
+                                <div class="hover-lift">
+                                    <h3 class="text-4xl font-bold text-gradient mb-2">12+</h3>
+                                    <p class="text-sm text-zinc-400">Projects Completed</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="space-y-8">
+                            <!-- Skill Bars with Animation -->
+                            <div class="space-y-2">
+                                <div class="flex justify-between text-sm">
+                                    <span>Linguagem C</span>
+                                    <span class="text-[#ff6b6b]">90%</span>
+                                </div>
+                                <div class="h-1 bg-white/10 rounded-full overflow-hidden">
+                                    <div class="h-full w-[90%] bg-gradient-to-r from-[#ff6b6b] to-[#ffd93d] rounded-full"></div>
+                                </div>
+                            </div>
+                            
+                            <div class="space-y-2">
+                                <div class="flex justify-between text-sm">
+                                    <span>Html</span>
+                                    <span class="text-[#ff6b6b]">95%</span>
+                                </div>
+                                <div class="h-1 bg-white/10 rounded-full overflow-hidden">
+                                    <div class="h-full w-[95%] bg-gradient-to-r from-[#ff6b6b] to-[#ffd93d] rounded-full"></div>
+                                </div>
+                            </div>
+                            <div class="space-y-2">
+                                <div class="flex justify-between text-sm">
+                                    <span>Css</span>
+                                    <span class="text-[#ff6b6b]">95%</span>
+                                </div>
+                                <div class="h-1 bg-white/10 rounded-full overflow-hidden">
+                                    <div class="h-full w-[95%] bg-gradient-to-r from-[#ff6b6b] to-[#ffd93d] rounded-full"></div>
+                                </div>
+                            </div>
+                            <div class="space-y-2">
+                                <div class="flex justify-between text-sm">
+                                    <span>JavaScript</span>
+                                    <span class="text-[#ff6b6b]">40%</span>
+                                </div>
+                                <div class="h-1 bg-white/10 rounded-full overflow-hidden">
+                                    <div class="h-full w-[40%] bg-gradient-to-r from-[#ff6b6b] to-[#ffd93d] rounded-full"></div>
+                                </div>
+                            </div>
+                            <div class="space-y-2">
+                                <div class="flex justify-between text-sm">
+                                    <span>Scrum / Metodologia Ágil</span>
+                                    <span class="text-[#ff6b6b]">85%</span>
+                                </div>
+                                <div class="h-1 bg-white/10 rounded-full overflow-hidden">
+                                    <div class="h-full w-[85%] bg-gradient-to-r from-[#ff6b6b] to-[#ffd93d] rounded-full"></div>
+                                </div>
+                            </div>
+                             <div class="space-y-2">
+                                <div class="flex justify-between text-sm">
+                                    <span>Git & GitHub</span>
+                                    <span class="text-[#ff6b6b]">90%</span>
+                                </div>
+                                <div class="h-1 bg-white/10 rounded-full overflow-hidden">
+                                    <div class="h-full w-[90%] bg-gradient-to-r from-[#ff6b6b] to-[#ffd93d] rounded-full"></div>
+                                </div>
+                            </div> <div class="space-y-2">
+                                <div class="flex justify-between text-sm">
+                                    <span>Comunicação & Trabalho em Equipe</span>
+                                    <span class="text-[#ff6b6b]">99%</span>
+                                </div>
+                                <div class="h-1 bg-white/10 rounded-full overflow-hidden">
+                                    <div class="h-full w-[99%] bg-gradient-to-r from-[#ff6b6b] to-[#ffd93d] rounded-full"></div>
+                                </div>
+                            </div>
+                             <div class="space-y-2">
+                                <div class="flex justify-between text-sm">
+                                    <span>Resolução de problemas</span>
+                                    <span class="text-[#ff6b6b]">94%</span>
+                                </div>
+                                <div class="h-1 bg-white/10 rounded-full overflow-hidden">
+                                    <div class="h-full w-[94%] bg-gradient-to-r from-[#ff6b6b] to-[#ffd93d] rounded-full"></div>
+                                </div>
+                            </div>
+                            <div class="space-y-2">
+                                <div class="flex justify-between text-sm">
+                                    <span>Inglês</span>
+                                    <span class="text-[#ff6b6b]">25%</span>
+                                </div>
+                                <div class="h-1 bg-white/10 rounded-full overflow-hidden">
+                                    <div class="h-full w-[25%] bg-gradient-to-r from-[#ff6b6b] to-[#ffd93d] rounded-full"></div>
+                                </div>
+                            </div>
+                        
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+    
+  <section  id="contact"class="contato-container">
+    <div class="contato-box">
+      <!-- Esquerda -->
+      <div class="contato-info">
+        <h2>CONTATO</h2>
+        <h1>Vamos criar juntos</h1>
+        <p>Tem um projeto em mente? Me mande mensagem para poder fazer seu orçamento.</p>
+        <div class="email-box">
+          <i class="fas fa-envelope"></i>
+          <span>luanmorais875@gmail.com</span>
+        </div>
+      </div>
+
+      <!-- Direita -->
+      <div class="contato-redes">
+        <a href="https://w.app/yrbgnx" target="_blank">
+          <i class="fab fa-whatsapp"></i>
+          WhatsApp
+        </a>
+        <a href="https://www.instagram.com/lgaldinojr_?utm_source=ig_web_button_share_sheet&igsh=ZDl3eXhpYW1rN25k" target="_blank">
+          <i class="fab fa-instagram"></i>
+          Instagram
+        </a>
+        <a href="https://www.linkedin.com/in/luangaldinobr/" target="_blank">
+          <i class="fab fa-linkedin"></i>
+          LinkedIn
+        </a>
+      </div>
+    </div>
+  </section>
+
+
+
+
+        <!-- Footer -->
+         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+ <footer class="custom-footer">
+  <div class="footer-container">
+    <div class="footer-logo">
+      <h2><span>luan</span>galdino.</h2>
+      <p>Transformando ideias em experiências digitais únicas.</p>
+    </div>
+
+ 
+
+
+  </div>
+
+ <div class="footer-bottom">
+  <a href="img/Curriculo atualizado ok.pdf" download class="btn-footer-cv">Baixar CV</a>
+  <span class="footer-copy">© 2025 luangaldino.dev — Todos os direitos reservados.</span>
+</div>
+
+
+</footer>
+
+    </div>
+</div>
+<!-- partial -->
+  <script src='https://cdn.tailwindcss.com'></script><script  src="./script.js"></script>
+
+</body>
+</html>
