@@ -126,7 +126,9 @@
                     <span class="mx-4 text-4xl font-bold text-gradient">C</span>
                     <span class="mx-4 text-4xl font-bold">HTML</span>
                     <span class="mx-4 text-4xl font-bold text-gradient">CSS</span>
-                    <span class="mx-4 text-4xl font-bold">MY SQL</span>
+                    <span class="mx-4 text-4xl font-bold">SQL </span> 
+                    <span class="mx-4 text-4xl font-bold text-gradient">PowerBI</span>
+
                 </div>
             </div>
         </section>
@@ -148,108 +150,85 @@ Se você procura um desenvolvedor web comprometido, criativo e com paixão por e
 
 
         <!-- Unique Work Section -->
-        <section id="work" class="py-20 custom-shape bg-zinc-900">
-            <div class="max-w-7xl mx-auto px-4">
-                <div class="mb-16">
-                    <span class="text-[#ff6b6b] text-sm uppercase tracking-wider">Melhores Projetos</span>
-                    <h2 class="text-4xl font-bold mt-2">Projetos:</h2>
-                </div>
-                
-                <!-- Staggered Grid -->
-                <div class="grid md:grid-cols-2 gap-8">
-                    <!-- Project Card 1 -->
-                    <div class="group relative h-[400px] bg-black rounded-2xl overflow-hidden hover-lift">
-                        <img src="img/sptf.jpg" 
-                             alt="Project Alpha" 
-                             class="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-110">
-                        <div class="absolute inset-0 bg-gradient-to-b from-transparent to-black/90 z-10"></div>
-                        <div class="absolute bottom-8 left-8 z-20">
-                            <h3 class="text-2xl font-bold mb-2">Réplica do spotify</h3>
-                            <p class="text-zinc-400 mb-4">Réplica visual da interface do Spotify criada com HTML e CSS. O projeto foca em layout responsivo, menus laterais, playlists e player fixo. Reproduz com fidelidade o design da plataforma original. Ideal para treinar estruturação e estilização de interfaces modernas</p>
-                            <a href="https://github.com/Luangaldinoo/Replica-do-spotify/blob/main/README.md" target="_blank" class="inline-flex items-center space-x-2 text-[#ff6b6b] group-hover:text-white transition-colors duration-300">
-                                <span>Link do repositório</span>
-                                <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
-                                </svg>
-                            </a>
-                        </div>
-                    </div>
-                                        <!-- Project Card 2 -->
+       <section id="work" class="py-20 custom-shape bg-zinc-900">
+  <div class="max-w-7xl mx-auto px-4">
+    <div class="mb-8 flex items-center justify-between">
+      <div>
+        <span class="text-[#ff6b6b] text-sm uppercase tracking-wider">Melhores Projetos</span>
+        <h2 class="text-4xl font-bold mt-2">Projetos:</h2>
+      </div>
+      <!-- Botões -->
+      <div class="flex gap-2">
+        <button id="prevBtn" class="p-2 bg-[#ff6b6b] text-white rounded-full hover:bg-[#ff4b4b] transition">
+          &#10094;
+        </button>
+        <button id="nextBtn" class="p-2 bg-[#ff6b6b] text-white rounded-full hover:bg-[#ff4b4b] transition">
+          &#10095;
+        </button>
+      </div>
+    </div>
 
-   <div class="group relative h-[400px] bg-black rounded-2xl overflow-hidden hover-lift">
-                        <img src="img/Caixa eletronico.jpg" 
-                             alt="Project Alpha" 
-                             class="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-110">
-                        <div class="absolute inset-0 bg-gradient-to-b from-transparent to-black/90 z-10"></div>
-                        <div class="absolute bottom-8 left-8 z-20">
-                            <h3 class="text-2xl font-bold mb-2">Simulador de Caixa eletrônico em C</h3>
-                            <p class="text-zinc-400 mb-4">simulador de banco em C que oferece saque, depósito, consulta e encerramento de sessão via menu, ideal para aprender lógica de programação com variáveis, decisões e repetições.</p>
-                            <a href="https://github.com/Luangaldinoo/Simulador-de-Caixa-Eletronico"  target="_blank"  class="inline-flex items-center space-x-2 text-[#ff6b6b] group-hover:text-white transition-colors duration-300">
-                                <span>Link do repositório</span>
-                                <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
-                                </svg>
-                            </a>
-                        </div>
-                    </div>
+    <!-- Carrossel -->
+    <div id="carousel" class="flex gap-8 overflow-x-auto scroll-smooth no-scrollbar">
+      
+      <!-- CARD 1 -->
+      <div class="min-w-[300px] max-w-[300px] h-[400px] bg-black rounded-2xl overflow-hidden hover-lift flex-shrink-0 relative">
+        <img src="img/sptf.jpg" alt="Spotify" class="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-110">
+        <div class="absolute inset-0 bg-gradient-to-b from-transparent to-black/90 z-10"></div>
+        <div class="absolute bottom-8 left-8 z-20">
+          <h3 class="text-2xl font-bold mb-2">Réplica do Spotify</h3>
+          <p class="text-zinc-400 mb-4">Réplica visual da interface do Spotify criada com HTML e CSS.</p>
+          <a href="https://github.com/Luangaldinoo/Replica-do-spotify/blob/main/README.md" target="_blank" class="text-[#ff6b6b] hover:text-white">Link do repositório →</a>
+        </div>
+      </div>
 
-                    <!-- Project Card 3  -->
-                   <div class="group relative h-[400px] bg-black rounded-2xl overflow-hidden hover-lift">
-                        <img src="img/Menu interativo.jpg" 
-                             alt="Project Alpha" 
-                             class="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-110">
-                        <div class="absolute inset-0 bg-gradient-to-b from-transparent to-black/90 z-10"></div>
-                        <div class="absolute bottom-8 left-8 z-20">
-                            <h3 class="text-2xl font-bold mb-2">Menu interativo em C</h3>
-                            <p class="text-zinc-400 mb-4">Menu interativo em C que simula um assistente virtual. O usuário pode falar com o assistente (MAX), obter endereço, fazer pedidos ou reservar mesa..</p>
-                            <a href="https://github.com/Luangaldinoo/Menu-interativo-.git"  target="_blank" class="inline-flex items-center space-x-2 text-[#ff6b6b] group-hover:text-white transition-colors duration-300">
-                                <span>Link do repositório</span>
-                                <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
-                                </svg>
-                            </a>
-                        </div>
-                    </div>
+      <!-- CARD 2 -->
+      <div class="min-w-[300px] max-w-[300px] h-[400px] bg-black rounded-2xl overflow-hidden hover-lift flex-shrink-0 relative">
+        <img src="img/Caixa eletronico.jpg" alt="Caixa" class="absolute inset-0 w-full h-full object-cover transition-transform duration-500">
+        <div class="absolute inset-0 bg-gradient-to-b from-transparent to-black/90 z-10"></div>
+        <div class="absolute bottom-8 left-8 z-20">
+          <h3 class="text-2xl font-bold mb-2">Caixa eletrônico em C</h3>
+          <p class="text-zinc-400 mb-4">Simulador de banco com saque, depósito e consulta.</p>
+          <a href="https://github.com/Luangaldinoo/Simulador-de-Caixa-Eletronico" target="_blank" class="text-[#ff6b6b] hover:text-white">Link do repositório →</a>
+        </div>
+      </div>
 
-                    <!-- Project Card 4 -->
-                   <div class="group relative h-[400px] bg-black rounded-2xl overflow-hidden hover-lift">
-                        <img src="img/techfuture.jpg" 
-                             alt="Project Alpha" 
-                             class="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-110">
-                        <div class="absolute inset-0 bg-gradient-to-b from-transparent to-black/90 z-10"></div>
-                        <div class="absolute bottom-8 left-8 z-20">
-                            <h3 class="text-2xl font-bold mb-2">TechSolutions Summit 2025</h3>
-                            <p class="text-zinc-400 mb-4">Este projeto é um convite digital para um evento, em HTML e CSS. Ele contém uma página inicial com detalhes do evento, uma seção para convidados com fotos e descrições, e um formulário de presença para RSVP.Funcionando bem em diversos dispositivos.</p>
-                            <a href="https://github.com/Luangaldinoo/TECHFUTURE-SUMMIT"  target="_blank" class="inline-flex items-center space-x-2 text-[#ff6b6b] group-hover:text-white transition-colors duration-300">
-                                <span>Link do repositório</span>
-                                <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
-                                </svg>
-                            </a>
-                        </div>
-                    </div>
+      <!-- CARD 3 -->
+      <div class="min-w-[300px] max-w-[300px] h-[400px] bg-black rounded-2xl overflow-hidden hover-lift flex-shrink-0 relative">
+        <img src="img/Menu interativo.jpg" alt="Menu" class="absolute inset-0 w-full h-full object-cover transition-transform duration-500">
+        <div class="absolute inset-0 bg-gradient-to-b from-transparent to-black/90 z-10"></div>
+        <div class="absolute bottom-8 left-8 z-20">
+          <h3 class="text-2xl font-bold mb-2">Menu interativo em C</h3>
+          <p class="text-zinc-400 mb-4">Assistente virtual em C (MAX) com várias funções.</p>
+          <a href="https://github.com/Luangaldinoo/Menu-interativo-.git" target="_blank" class="text-[#ff6b6b] hover:text-white">Link do repositório →</a>
+        </div>
+      </div>
 
-    <!-- Project Card 5 -->
-                   <div class="group relative h-[400px] bg-black rounded-2xl overflow-hidden hover-lift">
-                        <img src="img/WhatsApp Image 2025-07-17 at 16.37.02.jpeg" 
-                             alt="Project Alpha" 
-                             class="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-110">
-                        <div class="absolute inset-0 bg-gradient-to-b from-transparent to-black/90 z-10"></div>
-                        <div class="absolute bottom-8 left-8 z-20">
-                            <h3 class="text-2xl font-bold mb-2">Tanta Móveis</h3>
-                            <p class="text-zinc-400 mb-4"> Landing page moderna para uma loja de móveis com design responsivo.</p>
-                            <a href="https://github.com/Luangaldinoo/tanta-moveis"  target="_blank" class="inline-flex items-center space-x-2 text-[#ff6b6b] group-hover:text-white transition-colors duration-300">
-                                <span>Link do repositório</span>
-                                <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
-                                </svg>
-                            </a>
-                        </div>
-                    </div>
+      <!-- CARD 4 -->
+      <div class="min-w-[300px] max-w-[300px] h-[400px] bg-black rounded-2xl overflow-hidden hover-lift flex-shrink-0 relative">
+        <img src="img/techfuture.jpg" alt="Tech" class="absolute inset-0 w-full h-full object-cover transition-transform duration-500">
+        <div class="absolute inset-0 bg-gradient-to-b from-transparent to-black/90 z-10"></div>
+        <div class="absolute bottom-8 left-8 z-20">
+          <h3 class="text-2xl font-bold mb-2">TechSolutions Summit 2025</h3>
+          <p class="text-zinc-400 mb-4">Convite digital responsivo para evento de tecnologia.</p>
+          <a href="https://github.com/Luangaldinoo/TECHFUTURE-SUMMIT" target="_blank" class="text-[#ff6b6b] hover:text-white">Link do repositório →</a>
+        </div>
+      </div>
 
-                </div>
-            </div>
-        </section>
+      <!-- CARD 5 -->
+      <div class="min-w-[300px] max-w-[300px] h-[400px] bg-black rounded-2xl overflow-hidden hover-lift flex-shrink-0 relative">
+        <img src="img/WhatsApp Image 2025-07-17 at 16.37.02.jpeg" alt="Tanta Móveis" class="absolute inset-0 w-full h-full object-cover transition-transform duration-500">
+        <div class="absolute inset-0 bg-gradient-to-b from-transparent to-black/90 z-10"></div>
+        <div class="absolute bottom-8 left-8 z-20">
+          <h3 class="text-2xl font-bold mb-2">Tanta Móveis</h3>
+          <p class="text-zinc-400 mb-4">Landing page responsiva para loja de móveis.</p>
+          <a href="https://github.com/Luangaldinoo/tanta-moveis" target="_blank" class="text-[#ff6b6b] hover:text-white">Link do repositório →</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
 
         <!-- About Section with Diagonal Layout -->
         <section id="about" class="py-32 relative">
@@ -273,6 +252,7 @@ Se você procura um desenvolvedor web comprometido, criativo e com paixão por e
                             </div>
                         </div>
                         <div class="space-y-8">
+                            
                             <!-- Skill Bars with Animation -->
                             <div class="space-y-2">
                                 <div class="flex justify-between text-sm">
@@ -284,6 +264,20 @@ Se você procura um desenvolvedor web comprometido, criativo e com paixão por e
                                 </div>
                             </div>
                             
+                                 <div class="space-y-2">
+                                <div class="flex justify-between text-sm">
+                                    <span>SQL</span>
+                                    <span class="text-[#ff6b6b]">30%</span>
+                                </div>
+                                <div class="h-1 bg-white/10 rounded-full overflow-hidden">
+                                    <div class="h-full w-[30%] bg-gradient-to-r from-[#ff6b6b] to-[#ffd93d] rounded-full"></div>
+                                </div>
+                            </div>
+
+
+
+
+
                             <div class="space-y-2">
                                 <div class="flex justify-between text-sm">
                                     <span>Html</span>
@@ -395,9 +389,6 @@ Se você procura um desenvolvedor web comprometido, criativo e com paixão por e
       </div>
     </div>
   </section>
-
-
-
 
         <!-- Footer -->
          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
