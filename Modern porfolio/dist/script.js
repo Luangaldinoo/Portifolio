@@ -37,3 +37,11 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     }
   });
 });
+ const carousel = document.getElementById("carousel");
+  document.getElementById("nextBtn").addEventListener("click", () => {
+    carousel.scrollBy({ left: 320, behavior: "smooth" });
+  });
+  document.getElementById("prevBtn").addEventListener("click", () => {
+    carousel.scrollBy({ left: -320, behavior: "smooth" });
+  });
+  
