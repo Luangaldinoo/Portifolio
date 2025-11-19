@@ -5,7 +5,7 @@ Olá! Seja bem-vindo(a) ao repositório do meu portfólio pessoal. Este projeto 
 
 Este portfólio é mais do que apenas uma vitrine; é um projeto que demonstra minhas competências em  HTML/CSS, Javascript. 
 * **Link para o Portfólio Online:** https://portifolioluangaldino.vercel.app/
-* **Status do Projeto:** 🟢 Concluído
+* **Status do Projeto:** Concluído
   
 ## ✨ Habilidades e Tecnologias
 As seguintes tecnologias foram utilizadas e/ou demonstradas neste projeto e nos projetos vinculados:
