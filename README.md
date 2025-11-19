@@ -1,7 +1,6 @@
 # 🌟 Meu Portfólio Pessoal
 
-Olá! Seja bem-vindo(a) ao repositório do meu portfólio pessoal. Este projeto foi desenvolvido para apresentar meu trabalho, minhas habilidades e a experiência que adquiri em Desenvolvimento Web.
-
+Olá! Seja bem-vindo(a) ao repositório do meu portfólio pessoal. Este projeto foi desenvolvido para apresentar meu trabalho
 ## 🚀 Sobre o Projeto
 
 Este portfólio é mais do que apenas uma vitrine; é um projeto que demonstra minhas competências em  HTML/CSS, Javascript. 
